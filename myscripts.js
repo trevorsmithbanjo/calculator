@@ -15,13 +15,13 @@ const divide = (num1, num2) => {
 }
 
 const operate = (num1, op, num2) => {
-    if(op === '+') {
+    if (op === '+') {
         return add(num1, num2);
     }
-    else if(op === '-') {
+    else if (op === '-') {
         return subtract(num1, num2);
     }
-    else if(op === '*') {
+    else if (op === '*') {
         return multiply(num1, num2);
     }
     else {
@@ -55,7 +55,7 @@ function changeDisplayTo(e) {
     if (operator == '' && button >= 0 && button <= 9 || button == '.') {
         displayValue.textContent += button;
     }
-    if (
+    // if ()
 }
 
 function equalResult() {
