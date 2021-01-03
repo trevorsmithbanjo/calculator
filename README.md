@@ -1,0 +1,1 @@
+In this project I will use the fundamentals that I have learned to create a web page that is a calculator.  I will use HTML, CSS, and Javascript to create this calculator.
